@@ -18,7 +18,7 @@ namespace AppMAUIGallery.Repository
                         {
                             Title = "StackLayout",
                             Description = "A layout that positions child elements in a single line, either horizontally or vertically.",
-                            Page = new StackLayoutPage()
+                            Page = typeof(StackLayoutPage)
                         },
                         new Component
                         {
