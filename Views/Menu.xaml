@@ -9,7 +9,6 @@
     <ScrollView>
         <VerticalStackLayout Spacing="15">
 
-
             <Label
                 Margin="30"
                 FontAttributes="Bold"

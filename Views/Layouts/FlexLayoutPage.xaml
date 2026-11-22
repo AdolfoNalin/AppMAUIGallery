@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMAUIGallery.Views.Layouts.FlexLayoutPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="FlexLayoutPage">
+
+    <VerticalStackLayout>
+
+        <FlexLayout
+            AlignContent="SpaceAround"
+            AlignItems="Start"
+            Direction="Row"
+            Wrap="Wrap">
+            <Label
+                Padding="10"
+                BackgroundColor="MediumAquamarine"
+                FlexLayout.AlignSelf="End"
+                FlexLayout.Basis="20%"
+                FlexLayout.Grow="1"
+                Text="Linha 1" />
+            <Label
+                Padding="10"
+                BackgroundColor="Red"
+                FlexLayout.AlignSelf="Center"
+                Text="Linha 2" />
+            <Label
+                Padding="10"
+                BackgroundColor="Blue"
+                FlexLayout.AlignSelf="Start"
+                Text="Linha 3" />
+            <Label
+                Padding="10"
+                BackgroundColor="White"
+                Text="Linha 4"
+                TextColor="Black" />
+
+            <Label
+                Padding="10"
+                BackgroundColor="Green"
+                FlexLayout.Grow="1"
+                Text="Linha 5"
+                TextColor="Black" />
+            <Label
+                Padding="10"
+                BackgroundColor="Yellow"
+                FlexLayout.Grow="1"
+                Text="Linha 6"
+                TextColor="Black" />
+            <Label
+                Padding="10"
+                BackgroundColor="SaddleBrown"
+                FlexLayout.Grow="1"
+                Text="Linha 7"
+                TextColor="Black" />
+            <Label
+                Padding="10"
+                BackgroundColor="LawnGreen"
+                FlexLayout.Grow="1"
+                Text="Linha 8"
+                TextColor="Black" />
+            <Label
+                Padding="10"
+                BackgroundColor="Bisque"
+                FlexLayout.Grow="1"
+                Text="Linha 9"
+                TextColor="Black" />
+
+        </FlexLayout>
+    </VerticalStackLayout>
+</ContentPage>

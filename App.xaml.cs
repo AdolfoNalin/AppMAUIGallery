@@ -1,4 +1,5 @@
 ﻿using AppMAUIGallery.Views;
+using AppMAUIGallery.Views.Layouts;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace AppMAUIGallery
@@ -13,6 +14,6 @@ namespace AppMAUIGallery
         protected override Window CreateWindow(IActivationState? activationState)
         {
             return new Window(new FlyoutMenu());
-        }
+        } 
     }
 }
